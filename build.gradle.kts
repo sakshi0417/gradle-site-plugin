@@ -217,6 +217,4 @@ signing {
     setRequired(Callable {
         gradle.taskGraph.hasTask("publishPlugins")
     })
- // Disable the signing task
-    enabled.set(false)
 }
